@@ -177,51 +177,50 @@
         <File filePath="src/splash.per"/>
       </VirtualFolder>
       <VirtualFolder label="03_job_header_list (list drill)">
-        <File filePath="src/job_header_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/job_header_list.4fd"/>
         <File excludeFromLink="true" filePath="src/job_header_list.4gl"/>
+        <File filePath="src/job_header_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="04_job_header_grid (grid view)">
         <File excludeFromLink="true" filePath="src/job_header_grid.4gl"/>
         <File filePath="src/job_header_grid.per"/>
-        <File filePath="src/job_header_grid_1.4fd"/>
-        <File filePath="src/job_header_grid_gui.4fd"/>
       </VirtualFolder>
       <VirtualFolder label="05_customer_grid (grid view + API)">
         <File excludeFromLink="true" filePath="src/customer_grid.4gl"/>
         <File filePath="src/customer_grid.per"/>
-        <File filePath="src/customer_grid_gui.4fd"/>
       </VirtualFolder>
       <VirtualFolder label="10_job_detail (list crud + grid edit)">
         <File excludeFromLink="true" filePath="src/job_detail_grid.4gl"/>
         <File filePath="src/job_detail_grid.per"/>
-        <File filePath="src/job_detail_grid_gui.4fd"/>
-        <File filePath="src/job_detail_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/job_detail_list.4fd"/>
         <File excludeFromLink="true" filePath="src/job_detail_list.4gl"/>
+        <File filePath="src/job_detail_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="11_product_select (list select)">
-        <File filePath="src/product_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/product_list.4fd"/>
         <File excludeFromLink="true" filePath="src/product_list.4gl"/>
+        <File filePath="src/product_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="20_job_note (list crud + grid edit)">
         <File excludeFromLink="true" filePath="src/job_note_grid.4gl"/>
         <File filePath="src/job_note_grid.per"/>
-        <File filePath="src/job_note_grid_gui.4fd"/>
-        <File filePath="src/job_note_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/job_note_list.4fd"/>
         <File excludeFromLink="true" filePath="src/job_note_list.4gl"/>
+        <File filePath="src/job_note_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="30_job_photo (list crud + grid edit)">
         <File excludeFromLink="true" filePath="src/job_photo_grid.4gl"/>
         <File filePath="src/job_photo_grid.per"/>
-        <File filePath="src/job_photo_grid_gui.4fd"/>
-        <File filePath="src/job_photo_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/job_photo_list.4fd"/>
         <File excludeFromLink="true" filePath="src/job_photo_list.4gl"/>
+        <File filePath="src/job_photo_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="40_job_timesheet (list crud + grid edit)">
         <File excludeFromLink="true" filePath="src/job_timesheet_grid.4gl"/>
         <File filePath="src/job_timesheet_grid.per"/>
-        <File filePath="src/job_timesheet_grid_gui.4fd"/>
-        <File filePath="src/job_timesheet_list.4fd"/>
+        <File excludeFromCompilation="true" excludeFromLink="true" filePath="src/job_timesheet_list.4fd"/>
         <File excludeFromLink="true" filePath="src/job_timesheet_list.4gl"/>
+        <File filePath="src/job_timesheet_list.per"/>
       </VirtualFolder>
       <VirtualFolder label="50_job_header_complete (grid edit)">
         <File excludeFromLink="true" filePath="src/job_header_complete.4gl"/>
@@ -229,19 +228,6 @@
       </VirtualFolder>
       <VirtualFolder label="90_sync (data synchronization)">
         <File excludeFromLink="true" filePath="src/job_sync.4gl"/>
-      </VirtualFolder>
-      <VirtualFolder label="99_original_per">
-        <File filePath="src/job_detail_grid_orig.per"/>
-        <File filePath="src/job_detail_list_orig.per"/>
-        <File filePath="src/job_header_grid_orig.per"/>
-        <File filePath="src/job_header_list_orig.per"/>
-        <File filePath="src/job_note_grid_orig.per"/>
-        <File filePath="src/job_note_list_orig.per"/>
-        <File filePath="src/job_photo_grid_orig.per"/>
-        <File filePath="src/job_photo_list_orig.per"/>
-        <File filePath="src/job_timesheet_grid_orig.per"/>
-        <File filePath="src/job_timesheet_list_orig.per"/>
-        <File filePath="src/product_list_orig.per"/>
       </VirtualFolder>
     </Application>
     <Library binaryName="Release" id="866423081" label="Release">
