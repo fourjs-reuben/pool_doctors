@@ -1,2 +1,5 @@
 # pool_doctors
-The Pool Doctors GeneroMobile demo application 
+
+Superceeded by https://github.com/FourjsGenero/pool_doctors
+
+~~The Pool Doctors GeneroMobile demo application~~ 
